@@ -1,0 +1,42 @@
+{
+  "package": "loan",
+  "generated_at": "2026-07-06T19:53:22.251Z",
+  "published_at": "2026-07-06T19:57:10.939Z",
+  "source_tool": "octo-loan-tool",
+  "source_repo": "https://github.com/djackson74/octo-loan-tool",
+  "run_id": "19-53-22Z",
+  "dashboard": {
+    "fetchedAt": "2026-07-06T19:53:22.251Z",
+    "octoDailyProfitUsd": 2387,
+    "octoEdgeVsBaselinePct": 22.6,
+    "phase1AnnualProfitUsd": 871255,
+    "monthlyProfitUsd": 72604.58,
+    "btcPriceUsd": 63581,
+    "hashrateGainPct": 13.7,
+    "efficiencyGainPct": 12.1,
+    "validationStatus": "simulation-validated",
+    "skillLoaded": true
+  },
+  "converters": {
+    "docx": "pandoc",
+    "pdf": "md-to-pdf"
+  },
+  "files": {
+    "cover-letter": {
+      "markdown": "loan/2026-07-06/19-53-22Z/markdown/cover-letter.md",
+      "docx": "loan/2026-07-06/19-53-22Z/docx/cover-letter.docx",
+      "pdf": "loan/2026-07-06/19-53-22Z/pdf/cover-letter.pdf"
+    },
+    "term-sheet": {
+      "markdown": "loan/2026-07-06/19-53-22Z/markdown/term-sheet.md",
+      "docx": "loan/2026-07-06/19-53-22Z/docx/term-sheet.docx",
+      "pdf": "loan/2026-07-06/19-53-22Z/pdf/term-sheet.pdf"
+    },
+    "loan-agreement": {
+      "markdown": "loan/2026-07-06/19-53-22Z/markdown/loan-agreement.md",
+      "docx": "loan/2026-07-06/19-53-22Z/docx/loan-agreement.docx",
+      "pdf": "loan/2026-07-06/19-53-22Z/pdf/loan-agreement.pdf"
+    }
+  },
+  "capex_quotes": "loan/2026-07-06/19-53-22Z/capex-quotes.json"
+}
