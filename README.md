@@ -16,7 +16,10 @@ loan/
       markdown/               # source .md files
       docx/                   # Word exports (pandoc)
       pdf/                    # PDF exports (pandoc or md-to-pdf)
+      markdown-revised/       # CHRITIC-revised markdown (optional)
 ```
+
+Revised lender packages (baseline definition, logic chains, Schedule D, etc.) are written to `pdf/` as `*_Revised_YYYY-MM-DD.pdf` plus supporting schedules. See `manifest.json` → `revised` block when present.
 
 ## Publish
 
@@ -33,6 +36,7 @@ Options:
 ```bash
 node publish-docs.js --skip-generate          # reuse existing loan-tool/output/*.md
 node publish-docs.js --docs-repo /path/to/octo-loan-docs
+npm run revised   # from loan-tool — CHRITIC-revised PDFs into latest publish pdf/
 ```
 
 ## Requirements

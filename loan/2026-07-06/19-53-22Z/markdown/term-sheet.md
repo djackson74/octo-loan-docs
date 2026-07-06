@@ -18,7 +18,7 @@
 | **Currency** | USD |
 | **Purpose** | Phase 1 capex: containers, miners, interconnect, energisation, OCTO deployment |
 
-## 2. Economics (live simulation inputs — 2026-07-06T19:57:10.914Z)
+## 2. Economics (live simulation inputs — 2026-07-06T19:59:10.334Z)
 
 | Input | Value |
 |-------|-------|
