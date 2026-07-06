@@ -23,6 +23,7 @@ Lender proposal package for GrnBit Miracle Lake TX Phase 1 senior secured term l
 
 | File | Purpose |
 |------|---------|
+| `PACKAGE_GUIDE.md` | **Why this package exists** — audience, per-file purpose, send order |
 | `capex-quotes.json` | Locked vendor CAPEX (Schedule C) |
 | `manifest.json` | Package index and simulation metadata |
 
