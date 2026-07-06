@@ -1,5 +1,7 @@
 {
   "path": "loan/package",
+  "documents": "loan/package/documents",
+  "reference": "loan/package/reference",
   "doc_date": "2026-07-06",
   "stage": "Revised",
   "simulation_timestamp": "2026-07-06T19:53:22.251Z",

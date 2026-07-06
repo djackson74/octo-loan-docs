@@ -4,19 +4,27 @@ Lender proposal package for GrnBit Miracle Lake TX Phase 1 senior secured term l
 
 ## Current package
 
-**Folder:** [`loan/package/`](loan/package/)  
+**Lender PDFs (select-all copy):** [`loan/package/documents/`](loan/package/documents/)  
+**Reference data:** [`loan/package/reference/`](loan/package/reference/)  
 **Stage:** Revised (Verified-ready) · **Date:** 2026-07-06
+
+### documents/ — send to lenders
 
 | File | Purpose |
 |------|---------|
-| `Cover_Letter_Revised_2026-07-06.pdf` | Introductory letter to prospective lenders |
+| `Cover_Letter_Revised_2026-07-06.pdf` | Introductory letter |
 | `Term_Sheet_Revised_2026-07-06.pdf` | Indicative balloon term sheet ($2M / $3M) |
-| `Loan_Agreement_Form_Revised_2026-07-06.pdf` | Form loan agreement (counsel to finalize) |
-| `Simulation_Assumptions_Schedule.pdf` | Key OCTO-optimized digital-twin inputs |
-| `Key_Risks_Schedule_D.pdf` | Facility-specific risks tied to covenants |
-| `Changes_Memo.pdf` | Summary of revisions from prior draft |
-| `capex-quotes.json` | Locked vendor CAPEX quotes (Schedule C) |
-| `manifest.json` | Package metadata and file index |
+| `Loan_Agreement_Form_Revised_2026-07-06.pdf` | Form loan agreement |
+| `Simulation_Assumptions_Schedule.pdf` | OCTO digital-twin inputs |
+| `Key_Risks_Schedule_D.pdf` | Facility-specific risks |
+| `Changes_Memo.pdf` | Revision summary |
+
+### reference/ — internal / data room
+
+| File | Purpose |
+|------|---------|
+| `capex-quotes.json` | Locked vendor CAPEX (Schedule C) |
+| `manifest.json` | Package index and simulation metadata |
 
 Pointer: [`loan/latest.json`](loan/latest.json)
 
@@ -25,10 +33,5 @@ Pointer: [`loan/latest.json`](loan/latest.json)
 From [`octo-loan-tool`](../loan-tool):
 
 ```bash
-npm run publish   # fresh dashboard pull → markdown
-npm run revised   # CHRITIC-revised PDFs → loan/package/
+npm run revised   # PDFs → loan/package/documents/ · JSON → reference/
 ```
-
-## OCTO on Pi?
-
-Not required. Document generation runs on your dev machine (Node). The Pi workspace is for local OCTO Master Control, not lender doc export.
