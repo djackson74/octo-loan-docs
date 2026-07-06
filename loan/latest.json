@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-06",
-  "run_id": "19-53-22Z",
-  "path": "loan/2026-07-06/19-53-22Z",
-  "generated_at": "2026-07-06T19:53:22.251Z",
-  "published_at": "2026-07-06T19:59:10.365Z"
+  "path": "loan/package",
+  "doc_date": "2026-07-06",
+  "stage": "Revised",
+  "simulation_timestamp": "2026-07-06T19:53:22.251Z",
+  "revised_at": "2026-07-06T20:16:00.000Z"
 }
